@@ -1,0 +1,1 @@
+This error occurs when using the `Dimensions` API in React Native to get screen dimensions. The issue arises when accessing the `window` object's dimensions before the component has fully mounted or during the initial render. This can result in undefined values for width and height, leading to unexpected behavior or crashes in the application.
